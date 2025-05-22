@@ -1,0 +1,13 @@
+sharath 10k coders
+5:43 PM
+function App() {
+  const [data, setData] = useState(0);
+  useEffect(() => {
+    setData(data+5);
+    setData(data+5);
+  }, [undefined]);
+  return (
+    <div className="App">
+      <h1>{data}</h1>
+      <h2>Start editing to see some magic happen!</h2>
+    </div>

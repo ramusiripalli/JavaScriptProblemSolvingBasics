@@ -12,4 +12,4 @@ for(let word of words){
 return result.trim();
 }
 
-console.log(StringToTitleCase("hel,low,orl,d"));
+console.log(StringToTitleCase("hello world"));
