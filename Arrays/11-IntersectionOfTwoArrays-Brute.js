@@ -7,6 +7,7 @@ function InterSectionOfTwoArrays(nums1, nums2) {
         for (let j = 0; j < n2; j++) {
             if (nums1[i] == nums2[j]) {
                 res.push(nums1[i]);
+                break;
             }
         }
     }
